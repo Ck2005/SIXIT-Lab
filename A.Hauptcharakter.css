@@ -1,0 +1,50 @@
+h1 {
+    color: black;
+    text-align: center;
+    flex: strong;
+} 
+h2{
+    text-align: center;
+    flex: strong;
+}
+a{
+    text-align: left;
+}
+
+div1{  
+    background-image: url(Beide\ Hauptcharakter2.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+div2{
+    background-image: url(dororocharakter.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+div3{
+    color:white;
+    background-size: 100% 100%;
+    background-image: url(Dororo.png);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+li::marker{
+    color: transparent;
+}
