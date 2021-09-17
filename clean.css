@@ -1,8 +1,8 @@
-clean
+
 
 body  {
-    background-image: url(white.jpg);
-    background-size: auto;
+    background-image: url(9d5ecc0acf7e65f0b2591163b1b87534.jpg);
+        background-size: cover;
 }
 
 h1{
@@ -51,9 +51,8 @@ p {
                          -1px  1px 1px black,
                          -1px -1px 1px black;
     }
-    .center {
-        margin-left: auto;
-        margin-right: auto;
-        
+    
 
-      }
+div{
+    display: table-row;
+}
