@@ -1,0 +1,55 @@
+body{
+    background-image: url(./dororogif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+h1 {
+    color: black;
+    text-align: center;
+    flex: strong;
+} 
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+li::marker{
+    color: transparent;
+}
+
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropbtn {
+    color: black;
+    background: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+.myDiv {    
+    text-align: left;
+  }
